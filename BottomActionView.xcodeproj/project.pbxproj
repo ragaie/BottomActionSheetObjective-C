@@ -13,6 +13,8 @@
 		818B5A2D2099E70600582CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818B5A2C2099E70600582CA5 /* Assets.xcassets */; };
 		818B5A302099E70600582CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818B5A2E2099E70600582CA5 /* LaunchScreen.storyboard */; };
 		818B5A332099E70600582CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B5A322099E70600582CA5 /* main.m */; };
+		818B5A3B2099E75B00582CA5 /* BottomActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B5A3A2099E75B00582CA5 /* BottomActionView.m */; };
+		818B5A402099F14A00582CA5 /* ChtarSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B5A3F2099F14A00582CA5 /* ChtarSheetPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		818B5A2F2099E70600582CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818B5A312099E70600582CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818B5A322099E70600582CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		818B5A392099E75B00582CA5 /* BottomActionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomActionView.h; sourceTree = "<group>"; };
+		818B5A3A2099E75B00582CA5 /* BottomActionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomActionView.m; sourceTree = "<group>"; };
+		818B5A3E2099F14A00582CA5 /* ChtarSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChtarSheetPicker.h; sourceTree = "<group>"; };
+		818B5A3F2099F14A00582CA5 /* ChtarSheetPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChtarSheetPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		818B5A222099E70600582CA5 /* BottomActionView */ = {
 			isa = PBXGroup;
 			children = (
+				818B5A3D2099F11D00582CA5 /* gener view  */,
+				818B5A3C2099E76900582CA5 /* BottomActionView */,
 				818B5A232099E70600582CA5 /* AppDelegate.h */,
 				818B5A242099E70600582CA5 /* AppDelegate.m */,
 				818B5A262099E70600582CA5 /* ViewController.h */,
@@ -67,8 +75,26 @@
 				818B5A2E2099E70600582CA5 /* LaunchScreen.storyboard */,
 				818B5A312099E70600582CA5 /* Info.plist */,
 				818B5A322099E70600582CA5 /* main.m */,
+				818B5A392099E75B00582CA5 /* BottomActionView.h */,
+				818B5A3A2099E75B00582CA5 /* BottomActionView.m */,
 			);
 			path = BottomActionView;
+			sourceTree = "<group>";
+		};
+		818B5A3C2099E76900582CA5 /* BottomActionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BottomActionView;
+			sourceTree = "<group>";
+		};
+		818B5A3D2099F11D00582CA5 /* gener view  */ = {
+			isa = PBXGroup;
+			children = (
+				818B5A3E2099F14A00582CA5 /* ChtarSheetPicker.h */,
+				818B5A3F2099F14A00582CA5 /* ChtarSheetPicker.m */,
+			);
+			path = "gener view ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +171,8 @@
 				818B5A282099E70600582CA5 /* ViewController.m in Sources */,
 				818B5A332099E70600582CA5 /* main.m in Sources */,
 				818B5A252099E70600582CA5 /* AppDelegate.m in Sources */,
+				818B5A3B2099E75B00582CA5 /* BottomActionView.m in Sources */,
+				818B5A402099F14A00582CA5 /* ChtarSheetPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
